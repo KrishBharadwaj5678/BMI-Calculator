@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+    <string name="imgDesc">BMI Background</string>
+    <string name="heading">BMI Calculator</string>
+    <string name="weight">Weight</string>
+    <string name="weightHint">55</string>
+    <string name="heightFeet">Height (in feet)</string>
+    <string name="heightFeetHint">5</string>
+    <string name="heightInch">Height (in inch)</string>
+    <string name="heightInchHint">1</string>
+    <string name="btnBMI">BMI</string>
+    <string name="result"></string>
+    <string name="overweight">You\'re OverWeight.</string>
+    <string name="underweight">You\'re UnderWeight.</string>
+    <string name="healthy">You\'re Healthy.</string>
+</resources>
