@@ -2,7 +2,7 @@
 
 A simple and **user-friendly BMI (Body Mass Index) Calculator** Android app built using **Java** in **Android Studio**. This app helps users calculate their BMI based on weight and height and provides insights into their health status.
 
-![BMI-Calculator](https://github.com/KrishBharadwaj5678/BMI-Calculator/raw/main/BMICalculatorDemo.png)
+![BMI-Calculator](https://github.com/KrishBharadwaj5678/BMI-Calculator/raw/main/BMICalculator.png)
 
 ---
 
