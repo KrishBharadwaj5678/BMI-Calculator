@@ -9,8 +9,9 @@
     <string name="heightInch">Height (in inch)</string>
     <string name="heightInchHint">1</string>
     <string name="btnBMI">BMI</string>
-    <string name="result"></string>
-    <string name="overweight">You\'re OverWeight.</string>
-    <string name="underweight">You\'re UnderWeight.</string>
-    <string name="healthy">You\'re Healthy.</string>
+    <string name="status"></string>
+    <string name="result">Your BMI: %1$.1f</string>  <!-- Format String -->
+    <string name="overweight">You\'re OverWeight</string>
+    <string name="underweight">You\'re UnderWeight</string>
+    <string name="healthy">You\'re Healthy</string>
 </resources>

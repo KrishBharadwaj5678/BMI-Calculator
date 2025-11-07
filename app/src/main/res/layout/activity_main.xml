@@ -108,16 +108,28 @@
         android:padding="14dp"
         android:textSize="18sp"
         />
+    
+    <!-- Result -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:id="@+id/result"
+        android:textStyle="bold"
+        android:text=""
+        android:layout_marginTop="28dp"
+        android:textSize="29sp"
+        />
 
-     <!-- Result -->
+     <!-- Status -->
      <TextView
          android:layout_width="match_parent"
          android:layout_height="wrap_content"
-         android:text="@string/result"
-         android:textSize="31sp"
+         android:text="@string/status"
+         android:textSize="28sp"
          android:textStyle="bold"
          android:textAlignment="center"
-         android:layout_marginTop="24dp"
-         android:id="@+id/result"
+         android:layout_marginTop="13dp"
+         android:id="@+id/status"
         />
 </LinearLayout>

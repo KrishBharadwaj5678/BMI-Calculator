@@ -14,6 +14,19 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
 
+    EditText weight, heightFeet, heightInch;
+    Button btnBMI;
+    TextView result, status;
+
+    private void init(){
+        weight = findViewById(R.id.weight);
+        heightFeet = findViewById(R.id.heightFeet);
+        heightInch = findViewById(R.id.heightInch);
+        btnBMI = findViewById(R.id.btnBMI);
+        result = findViewById(R.id.result);
+        status= findViewById(R.id.status);
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,11 +38,7 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        EditText weight = findViewById(R.id.weight);
-        EditText heightFeet = findViewById(R.id.heightFeet);
-        EditText heightInch = findViewById(R.id.heightInch);
-        Button btnBMI = findViewById(R.id.btnBMI);
-        TextView result = findViewById(R.id.result);
+        init();
 
         btnBMI.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -48,14 +57,17 @@ public class MainActivity extends AppCompatActivity {
                 double bmi = userWeight/(totalM*totalM);
 
                 if(bmi>25){
-                    result.setText(R.string.overweight);
-                    result.setTextColor(getResources().getColor(R.color.red));
+                    result.setText(getString(R.string.result,bmi));
+                    status.setText(R.string.overweight);
+                    status.setTextColor(getResources().getColor(R.color.red));
                 }else if(bmi<18){
-                    result.setText(R.string.underweight);
-                    result.setTextColor(getResources().getColor(R.color.yellow));
+                    result.setText(getString(R.string.result,bmi));
+                    status.setText(R.string.underweight);
+                    status.setTextColor(getResources().getColor(R.color.yellow));
                 }else{
-                    result.setText(R.string.healthy);
-                    result.setTextColor(getResources().getColor(R.color.green));
+                    result.setText(getString(R.string.result,bmi));
+                    status.setText(R.string.healthy);
+                    status.setTextColor(getResources().getColor(R.color.green));
                 }
             }
         });
