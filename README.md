@@ -1,10 +1,8 @@
-# 🏋️‍♂️ BMI Calculator Android App
+# 🏋️‍♂️ BMI Calculator App
 
 A simple and **user-friendly BMI (Body Mass Index) Calculator** Android app built using **Java** in **Android Studio**. This app helps users calculate their BMI based on weight and height and provides insights into their health status.
 
-![BMI-Calculator](https://github.com/KrishBharadwaj5678/BMI-Calculator/raw/main/BMICalculator.png)
-
----
+![BMICalculatorDemo](https://github.com/KrishBharadwaj5678/BMI-Calculator/raw/main/BMICalculator.png)
 
 ## ✨ Features
 
@@ -32,23 +30,12 @@ A simple and **user-friendly BMI (Body Mass Index) Calculator** Android app buil
 
 ## 🚀 Installation
 
-1. Clone the repository:
+1️⃣ Clone the repository:
 
    ```bash
    git clone https://github.com/KrishBharadwaj5678/BMI-Calculator.git
    ```
-2. Open the project in **Android Studio**.
-3. Build and run the project on an emulator or a physical Android device.
 
----
+2️⃣ Open the project in **Android Studio**.
 
-## 🤝 Contributing
-
-Contributions are welcome! Follow these simple steps:
-
-1. 🍴 Fork the repository.
-2. 🌿 Create a new branch (`git checkout -b feature-name`).
-3. ✍️ Make your changes and commit them (`git commit -am 'Add feature-name'`).
-4. 🚀 Push to your branch (`git push origin feature-name`).
-5. 🔄 Submit a pull request to merge into the main branch.
-
+3️⃣ Build and run the project on an emulator or a physical Android device.
