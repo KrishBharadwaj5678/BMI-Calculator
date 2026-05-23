@@ -1,3 +1,5 @@
+[English](README.md) | [Português](README.pt.md) | [日本語](README.ja.md) | [Русский](README.ru.md)
+
 # 🏋️‍♂️ BMI Calculator App
 
 A simple and **user-friendly BMI (Body Mass Index) Calculator** Android app built using **Java** in **Android Studio**. This app helps users calculate their BMI based on weight and height and provides insights into their health status.
